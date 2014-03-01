@@ -151,6 +151,10 @@ footer .ligaturesymbols a,
 .footer .ligaturesymbols a {
   color: black;
 }
+footer div + div.footerlist,
+.footer div + div.footerlist {
+  clear: left;
+}
 footer .footerlist,
 .footer .footerlist {
   float: left;
